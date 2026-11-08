@@ -135,6 +135,27 @@ namespace Live2DCardRogue.Common.Localization
             return locale != null ? locale.Identifier.Code : "";
         }
 
+        /// <summary>
+        /// 文字列を引く前に、ローカライズの初期化（文字列テーブルの読み込み）を待つ必要があるか。
+        /// ここの取得はすべて同期で、まだ読み込まれていないテーブルはその場で読み込みを待つ（WaitForCompletion）。
+        /// WebGL はその同期待ちができずに例外になるので、初期化（全テーブルを Preload にしてある）が終わるまで待つ。
+        /// ほかのプラットフォームは同期で待てるので、従来どおり待たない（タイミングを変えない）
+        /// </summary>
+        public static bool MustWaitForTables =>
+            UnityEngine.Application.platform == UnityEngine.RuntimePlatform.WebGLPlayer
+            && !LocalizationSettings.InitializationOperation.IsDone;
+
+        /// <summary>文字列を引ける状態になったら action を呼ぶ（待つ必要がなければ今すぐ）。言語を切り替えた直後も読み込みが走る</summary>
+        public static void WhenTablesReady(System.Action action)
+        {
+            if (!MustWaitForTables)
+            {
+                action.Invoke();
+                return;
+            }
+            LocalizationSettings.InitializationOperation.Completed += _ => action.Invoke();
+        }
+
         private static string GetLocalizedString(string tableName, string key)
         {
             return LocalizationSettings.StringDatabase.GetLocalizedString(tableName, key);

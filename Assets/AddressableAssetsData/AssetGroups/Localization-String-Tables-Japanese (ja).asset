@@ -20,66 +20,77 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ja
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1ac4d687e5b87c2468ae3d30d7ba3827
     m_Address: StatusEffectName_ja
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ja
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1d8b92ba1e90e034bb41b8dff999ad5f
     m_Address: EnemyDescription_ja
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ja
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5cf48a3436da3194781d05724e4a383e
     m_Address: StatusEffectLogDetail_ja
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ja
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 704f24df4c572024da7981ab8db6f59e
     m_Address: EnemyName_ja
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ja
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 85c4518a8117d914499eb588c9bc1fad
     m_Address: UIText_ja
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ja
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: acd8535ef638b46498bec42136a99ba9
     m_Address: CardPackDescription_ja
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ja
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b0083c449d337a94f9f4ce7e8ec7dfa3
     m_Address: CardName_ja
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ja
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ca661fb977196e046ab73a5f4e184101
     m_Address: TutorialText_ja
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ja
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d53142e8dc126cd4eb83c2253cfab5a5
     m_Address: CardDescription_ja
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ja
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ff993facbd3e90f4da3545f40f280b8a
     m_Address: CardPackName_ja
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ja
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: e89cedd67fc0a8b47bfbfb4785e4b573, type: 2}

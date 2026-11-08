@@ -1,4 +1,5 @@
 using System;
+using Live2DCardRogue.Common.Localization;
 using UnityEngine.Localization;
 using UnityEngine.Localization.Settings;
 
@@ -39,9 +40,14 @@ namespace Live2DCardRogue.Common.Presenters
         // 表示するローカライズ文字列が無いPresenterは空実装でよい。
         protected abstract void OnLocaleChanged();
 
+        // WebGL では切り替え直後は新しい言語のテーブルがまだ読み込まれていないので、読み込みを待ってから反映する。
+        // 待つあいだに Dispose されたら何もしない
         private void HandleSelectedLocaleChanged(Locale locale)
         {
-            OnLocaleChanged();
+            LocalizationHelper.WhenTablesReady(() =>
+            {
+                if (_isInitialized) OnLocaleChanged();
+            });
         }
     }
 }

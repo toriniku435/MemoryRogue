@@ -68,20 +68,30 @@ namespace Live2DCardRogue.Common.Save
             var path = PathOf(fileName);
             var temp = path + TempSuffix;
             File.WriteAllBytes(temp, data);
-            if (File.Exists(path))
-            {
-                File.Replace(temp, path, null);
-            }
-            else
+            if (!File.Exists(path))
             {
                 File.Move(temp, path);
             }
+            else if (UnityEngine.Application.platform == UnityEngine.RuntimePlatform.WebGLPlayer)
+            {
+                // ブラウザのファイルシステムは File.Replace を確実には扱えない。ここはメモリ上で、
+                // 途中で落ちても IndexedDB には前のファイルが残っている（書き戻すのは Flush の時だけ）ので、消してから移す
+                File.Delete(path);
+                File.Move(temp, path);
+            }
+            else
+            {
+                File.Replace(temp, path, null);
+            }
+            WebGLFileSync.Flush();
         }
 
         public void Delete(string fileName)
         {
             var path = PathOf(fileName);
-            if (File.Exists(path)) File.Delete(path);
+            if (!File.Exists(path)) return;
+            File.Delete(path);
+            WebGLFileSync.Flush();
         }
 
         private string PathOf(string fileName)

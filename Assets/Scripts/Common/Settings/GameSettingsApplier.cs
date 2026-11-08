@@ -33,10 +33,17 @@ namespace Live2DCardRogue.Common.Settings
                 : refreshRate;
         }
 
-        /// <summary>フルスクリーン / ウインドウを当てる。エディタでは何もしない（Game ビューの大きさは変えられない）</summary>
+        /// <summary>
+        /// 画面モードをゲームから変えられるか。ブラウザ（WebGL）はフルスクリーンをユーザー操作からしか許さず、
+        /// Unity はその要求を「次のクリック」まで持ち越すため、起動時に当てると最初のクリックで突然フルスクリーンになる。
+        /// WebGL ではページ側のフルスクリーンボタンに任せる
+        /// </summary>
+        public static bool CanChangeDisplay => Application.platform != RuntimePlatform.WebGLPlayer;
+
+        /// <summary>フルスクリーン / ウインドウを当てる。エディタと WebGL では何もしない（Game ビューの大きさは変えられない）</summary>
         public static void ApplyDisplay()
         {
-            if (Application.isEditor) return;
+            if (Application.isEditor || !CanChangeDisplay) return;
 
             int displayWidth = Display.main.systemWidth;
             int displayHeight = Display.main.systemHeight;

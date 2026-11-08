@@ -131,7 +131,7 @@ namespace Live2DCardRogue.Common.Views
         }
 
         /// <summary>今の値を見せる（スライダーを動かしたことにはしない）</summary>
-        public void SetValues(float bgm, float se, float speed, string language, string display, bool canChangeLanguage)
+        public void SetValues(float bgm, float se, float speed, string language, string display, bool canChangeLanguage, bool canChangeDisplay)
         {
             _bgmRow.Slider.SetValueWithoutNotify(Mathf.Round(bgm / _volumeStep));
             _bgmRow.Value.text = $"{Mathf.RoundToInt(bgm * 100)}%";
@@ -142,6 +142,7 @@ namespace Live2DCardRogue.Common.Views
             _languageSelector.SetValue(language);
             _languageSelector.SetInteractable(canChangeLanguage);
             _displaySelector.SetValue(display);
+            _displaySelector.SetInteractable(canChangeDisplay);
         }
 
         /// <summary>既定値のときは「デフォルトに戻す」を押せなくする。変更が無ければ「反映」も押せない</summary>

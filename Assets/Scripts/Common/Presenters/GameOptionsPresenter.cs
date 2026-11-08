@@ -125,7 +125,8 @@ namespace Live2DCardRogue.Common.Presenters
                 _model.BgmVolume, _model.SeVolume, _model.BattleSpeed,
                 LocaleName(_model.LocaleCode),
                 LocalizationHelper.GetUiText(_model.Fullscreen ? UiTextKey.Fullscreen : UiTextKey.Windowed),
-                canChangeLanguage: _locales.Count > 1);
+                canChangeLanguage: _locales.Count > 1,
+                canChangeDisplay: GameSettingsApplier.CanChangeDisplay);
             _window.SetButtonStates(canReset: !_model.IsDefault, canApply: _model.IsDirty);
         }
 
