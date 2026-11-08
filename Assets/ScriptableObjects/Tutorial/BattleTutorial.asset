@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df4ed3149d4372f48ae8a3dbfef139b7, type: 3}
+  m_Name: BattleTutorial
+  m_EditorClassIdentifier: Live2DCardRogue.Runtime::Live2DCardRogue.Common.Tutorial.TutorialSequence
+  _sceneName: BattleScene
+  _steps:
+  - _anchorId: 
+    _textKey: Battle_Intro
+    _bubbleSide: 0
+    _advance: 0
+    _eventName: 
+  - _anchorId: EnemyUnit
+    _textKey: Battle_Enemy
+    _bubbleSide: 3
+    _advance: 0
+    _eventName: 
+  - _anchorId: PlayerUnit
+    _textKey: Battle_Player
+    _bubbleSide: 4
+    _advance: 0
+    _eventName: 
+  - _anchorId: Hand
+    _textKey: Battle_Buffer
+    _bubbleSide: 1
+    _advance: 0
+    _eventName: 
+  - _anchorId: Memory
+    _textKey: Battle_Memory
+    _bubbleSide: 4
+    _advance: 0
+    _eventName: 
+  - _anchorId: HandCard:Attack
+    _textKey: Battle_QueueAttack
+    _bubbleSide: 1
+    _advance: 1
+    _eventName: CardQueued
+  - _anchorId: CommandTray
+    _textKey: Battle_CommandMemory
+    _bubbleSide: 1
+    _advance: 0
+    _eventName: 
+  - _anchorId: HandCard:Block
+    _textKey: Battle_QueueBlock
+    _bubbleSide: 1
+    _advance: 1
+    _eventName: CardQueued
+  - _anchorId: HandCard:Regeneration
+    _textKey: Battle_QueueRegeneration
+    _bubbleSide: 1
+    _advance: 1
+    _eventName: CardQueued
+  - _anchorId: HandCard:StrongAttack
+    _textKey: Battle_NotEnoughMemory
+    _bubbleSide: 1
+    _advance: 0
+    _eventName: 
+  - _anchorId: ExecuteButton
+    _textKey: Battle_Execute
+    _bubbleSide: 1
+    _advance: 1
+    _eventName: ExecuteRequested
+  - _anchorId: 
+    _textKey: 
+    _bubbleSide: 0
+    _advance: 1
+    _eventName: PlayerTurnStarted
+  - _anchorId: PlayerUnit
+    _textKey: Battle_LastingEffects
+    _bubbleSide: 4
+    _advance: 0
+    _eventName: 
+  - _anchorId: DiscardPile
+    _textKey: Battle_Archive
+    _bubbleSide: 3
+    _advance: 0
+    _eventName: 
+  - _anchorId: DeckPile
+    _textKey: Battle_Draw
+    _bubbleSide: 4
+    _advance: 0
+    _eventName: 
+  - _anchorId: HandCard:Heal
+    _textKey: Battle_QueueHeal
+    _bubbleSide: 1
+    _advance: 1
+    _eventName: CardQueued
+  - _anchorId: HandCard:Mining
+    _textKey: Battle_QueueMining
+    _bubbleSide: 1
+    _advance: 1
+    _eventName: CardQueued
+  - _anchorId: ExecuteButton
+    _textKey: Battle_Execute2
+    _bubbleSide: 1
+    _advance: 1
+    _eventName: ExecuteRequested
+  - _anchorId: 
+    _textKey: 
+    _bubbleSide: 0
+    _advance: 1
+    _eventName: EnemyTurnStarted
+  - _anchorId: PurgePile
+    _textKey: Battle_Purge
+    _bubbleSide: 3
+    _advance: 0
+    _eventName: 
+  - _anchorId: 
+    _textKey: Battle_End
+    _bubbleSide: 0
+    _advance: 0
+    _eventName: 

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df4ed3149d4372f48ae8a3dbfef139b7, type: 3}
+  m_Name: MapTutorial
+  m_EditorClassIdentifier: Live2DCardRogue.Runtime::Live2DCardRogue.Common.Tutorial.TutorialSequence
+  _sceneName: MapScene
+  _steps:
+  - _anchorId: 
+    _textKey: Map_Welcome
+    _bubbleSide: 0
+    _advance: 0
+    _eventName: 
+  - _anchorId: MapRoom:Current
+    _textKey: Map_Room
+    _bubbleSide: 0
+    _advance: 0
+    _eventName: 
+  - _anchorId: Depth
+    _textKey: Map_Depth
+    _bubbleSide: 2
+    _advance: 0
+    _eventName: 
+  - _anchorId: EnemyDetailButton
+    _textKey: Map_EnemyDetail
+    _bubbleSide: 0
+    _advance: 0
+    _eventName: 
+  - _anchorId: StageStartButton
+    _textKey: Map_StageStart
+    _bubbleSide: 1
+    _advance: 0
+    _eventName: 
+  - _anchorId: DeckEditButton
+    _textKey: Map_DeckEdit
+    _bubbleSide: 1
+    _advance: 0
+    _eventName: 
+  - _anchorId: Tokens
+    _textKey: Map_Tokens
+    _bubbleSide: 1
+    _advance: 0
+    _eventName: 
+  - _anchorId: CardShopButton
+    _textKey: Map_Market
+    _bubbleSide: 1
+    _advance: 0
+    _eventName: 
+  - _anchorId: UnitUpgradeButton
+    _textKey: Map_Upgrade
+    _bubbleSide: 1
+    _advance: 0
+    _eventName: 
+  - _anchorId: TutorialButton
+    _textKey: Map_Replay
+    _bubbleSide: 2
+    _advance: 0
+    _eventName: 
+  - _anchorId: 
+    _textKey: Map_ToBattle
+    _bubbleSide: 0
+    _advance: 0
+    _eventName: 

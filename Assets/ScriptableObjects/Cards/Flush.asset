@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca5f699be1726f34db8f7ae849f6afd2, type: 3}
+  m_Name: Flush
+  m_EditorClassIdentifier: Live2DCardRogue.Runtime::Live2DCardRogue.Common.ScriptableObjects.CardData
+  _id: Flush
+  _cost: 2
+  _rarity: 0
+  _effects:
+  - rid: 2743344274918867026
+  _illustration: {fileID: 21300000, guid: 7f255f0e53b262f4b84e17df7a1f9c61, type: 3}
+  _purgeOnUse: 0
+  _maxCopiesInDeck: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 2743344274918867026
+      type: {class: FlushAttackCardEffect, ns: Live2DCardRogue.Common.Models.Cards, asm: Live2DCardRogue.Runtime}
+      data:
+        _damage: 8
+        _bonusDamage: 16

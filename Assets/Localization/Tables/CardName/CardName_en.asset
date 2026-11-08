@@ -1,0 +1,305 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: CardName_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 54a1fe9ed2993e443a8729cea213c047, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 2743344274918867038
+  m_TableData:
+  - m_Id: 5526273884160
+    m_Localized: Attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5526336798720
+    m_Localized: Block
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5526336798721
+    m_Localized: Strong Attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 215060525858816
+    m_Localized: Virus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 254915613523968
+    m_Localized: Strength
+    m_Metadata:
+      m_Items: []
+  - m_Id: 930824460926976
+    m_Localized: Heal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 930824595144704
+    m_Localized: Regeneration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2099252118913024
+    m_Localized: Overclock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2099252194410496
+    m_Localized: Exploit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2099252194410497
+    m_Localized: Cache Expand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2099252194410498
+    m_Localized: Overload
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2099252194410499
+    m_Localized: Firewall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2099252194410500
+    m_Localized: Interrupt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2099252194410501
+    m_Localized: Power Surge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2099252194410502
+    m_Localized: Backup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2099252194410503
+    m_Localized: Siphon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2099252194410504
+    m_Localized: Broadcast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2099252194410505
+    m_Localized: Self Repair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2099252194410506
+    m_Localized: Corrupt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2456833588953088
+    m_Localized: Loopback
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2456833689616384
+    m_Localized: Multithread
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2456833689616385
+    m_Localized: Mining
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2456833689616386
+    m_Localized: Reverse Patch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2456833689616387
+    m_Localized: Kernel Panic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2456833689616388
+    m_Localized: Virus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2456833689616389
+    m_Localized: Stealth Shell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2456833689616390
+    m_Localized: Probe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2456833689616391
+    m_Localized: Dormant Virus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2456833689616392
+    m_Localized: Keylogger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2456833689616393
+    m_Localized: Spy Virus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2456833689616394
+    m_Localized: Remote Repair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2456833689616395
+    m_Localized: DDoS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2463481250414592
+    m_Localized: Bypass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2463481397215232
+    m_Localized: Buffer Overflow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2463481397215233
+    m_Localized: Repair Packet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2463481397215234
+    m_Localized: Worm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3123413469593600
+    m_Localized: Garbage Collection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3123413519925248
+    m_Localized: Port Scan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3123413528313856
+    m_Localized: Privilege Escalation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3123413528313857
+    m_Localized: Terminate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3123413528313858
+    m_Localized: Code Injection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3123413528313859
+    m_Localized: Memory Leak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3123413528313860
+    m_Localized: System Error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3137820090138624
+    m_Localized: Backdoor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3137820144664576
+    m_Localized: Payload
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5003020837814272
+    m_Localized: Zero-Day
+    m_Metadata:
+      m_Items:
+      - rid: 2743344274918867038
+  - m_Id: 5003021018169344
+    m_Localized: Redo
+    m_Metadata:
+      m_Items:
+      - rid: 2743344274918867038
+  - m_Id: 5003021018169345
+    m_Localized: Flush
+    m_Metadata:
+      m_Items:
+      - rid: 2743344274918867038
+  - m_Id: 5003021018169346
+    m_Localized: Swap Out
+    m_Metadata:
+      m_Items:
+      - rid: 2743344274918867038
+  - m_Id: 5003021018169347
+    m_Localized: Defrag
+    m_Metadata:
+      m_Items:
+      - rid: 2743344274918867038
+  - m_Id: 5003021018169348
+    m_Localized: Cloud Burst
+    m_Metadata:
+      m_Items:
+      - rid: 2743344274918867038
+  - m_Id: 5003021018169349
+    m_Localized: Pipeline
+    m_Metadata:
+      m_Items:
+      - rid: 2743344274918867038
+  - m_Id: 5003021018169350
+    m_Localized: Brute Force
+    m_Metadata:
+      m_Items:
+      - rid: 2743344274918867038
+  - m_Id: 5003021018169351
+    m_Localized: Reflection
+    m_Metadata:
+      m_Items:
+      - rid: 2743344274918867038
+  - m_Id: 5003021018169352
+    m_Localized: Format
+    m_Metadata:
+      m_Items:
+      - rid: 2743344274918867038
+  - m_Id: 5003021018169353
+    m_Localized: Firewall Breach
+    m_Metadata:
+      m_Items:
+      - rid: 2743344274918867038
+  - m_Id: 5003021018169354
+    m_Localized: Resource Hijack
+    m_Metadata:
+      m_Items:
+      - rid: 2743344274918867038
+  - m_Id: 6473595426930688
+    m_Localized: Encrypt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6473595561148416
+    m_Localized: Self-Repair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6473595561148417
+    m_Localized: Cipher Shield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6473595561148418
+    m_Localized: Spawn Spyware
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6475505240342528
+    m_Localized: Forensics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17347260016197632
+    m_Localized: Overwrite
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 2743344274918867038
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 5003020837814272
+        - id: 5003021018169344
+        - id: 5003021018169345
+        - id: 5003021018169346
+        - id: 5003021018169347
+        - id: 5003021018169348
+        - id: 5003021018169349
+        - id: 5003021018169350
+        - id: 5003021018169351
+        - id: 5003021018169352
+        - id: 5003021018169353
+        - id: 5003021018169354

@@ -1,0 +1,435 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: CardDescription_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 9db8e01644d7a9747b10bf02ace581ad, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 2090394317060833358
+  m_TableData:
+  - m_Id: 796901376
+    m_Localized: Deal {damage} damage
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 864010240
+    m_Localized: Gain {block} Block
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 872398848
+    m_Localized: Deal {damage} damage
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 20932911415296
+    m_Localized: Infect with a virus that deals {poison} damage at the end of each
+      turn
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 60788015857664
+    m_Localized: Deal {strength} additional attack damage
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 736696850677760
+    m_Localized: Heal {heal} HP
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 736696892620800
+    m_Localized: Gain {regeneration} Regeneration that heals at the end of each turn
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 1905124458332160
+    m_Localized: 'Pay {hpCost} HP. Next {memoryTurns} {memoryTurns:plural:turn|turns}:
+      +{memoryAmount} memory'
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 1905124491886592
+    m_Localized: Deal {damage} damage that ignores Block
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 1905124491886593
+    m_Localized: 'Next {handUpTurns} {handUpTurns:plural:turn|turns}: buffer +{handUpAmount}'
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 1905124491886594
+    m_Localized: 'Deal {damage} damage. Next {handDownTurns} {handDownTurns:plural:turn|turns}:
+      buffer -{handDownAmount}'
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 1905124491886595
+    m_Localized: 'Gain {block} Block. Next {handDownTurns} {handDownTurns:plural:turn|turns}:
+      buffer -{handDownAmount}'
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 1905124491886596
+    m_Localized: The target can't act for {stunTurns} {stunTurns:plural:turn|turns}
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 1905124491886597
+    m_Localized: Deal damage equal to {damagePercent}% of your current HP
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 1905124491886598
+    m_Localized: Gain Block equal to {blockPercent}% of your current HP
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 1905124491886599
+    m_Localized: Deal {damage} damage and heal {heal} HP
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 1905124491886600
+    m_Localized: Deal {damage} damage to all enemies
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 1905124491886601
+    m_Localized: Heal {heal} HP
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 1905124491886602
+    m_Localized: For {reversalTurns} {reversalTurns:plural:turn|turns}, the target's
+      healing becomes damage
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2262705949343744
+    m_Localized: The next command you execute returns to your buffer next turn
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2262705987092480
+    m_Localized: Execute the next command {repeat} times. That command is purged
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2262705987092481
+    m_Localized: Pay {hpCost} HP. Win to gain +{tokenBonus}% tokens. Purged after
+      use
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2262705987092482
+    m_Localized: For {reversalTurns} {reversalTurns:plural:turn|turns}, the target's
+      healing becomes damage
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2262705987092483
+    m_Localized: For {panicTurns} {panicTurns:plural:turn|turns}, healing becomes
+      damage for every unit, friend or foe
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2262705987092484
+    m_Localized: Infect with a virus that deals {poison} damage at the end of each
+      turn
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2262705987092485
+    m_Localized: Gain {block} Block
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2262705987092486
+    m_Localized: Deal {damage} damage
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2262705987092487
+    m_Localized: Infect with a virus that deals {poison} damage at the end of each
+      turn
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2262705987092488
+    m_Localized: The target's buffer is {jamAmount} smaller for the next {jamTurns}
+      {jamTurns:plural:turn|turns}
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2262705987092489
+    m_Localized: Infect with a virus that deals {poison} damage at the end of each
+      turn
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2262705987092490
+    m_Localized: Restore {allyHeal} HP to the most damaged ally
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2262705987092491
+    m_Localized: Deal {damage} damage
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2269353644359680
+    m_Localized: Remove all of the target's Block
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2269353694691328
+    m_Localized: Deal {damage} damage. Your buffer is empty for the next {lockTurns}
+      {lockTurns:plural:turn|turns} (stacks if used again)
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2269353694691329
+    m_Localized: Restore {enemyHeal} HP to the target
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2269353694691330
+    m_Localized: Infect with a worm that deals {worm} damage plus half the victim's
+      Block at the end of each turn
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2929285825789952
+    m_Localized: Purge up to {handPurge} {handPurge:plural:command|commands} from
+      your buffer. Deal {damagePerPurge} damage per command purged
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2929285859344384
+    m_Localized: "Chain step {chainStep}. Execute it first this turn, then Privilege
+      Escalation \u2192 Terminate, to kill the target outright"
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2929285859344385
+    m_Localized: Chain step {chainStep}. Advances the chain when executed right after
+      Port Scan
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2929285859344386
+    m_Localized: "Chain step {chainStep}. Executed right after Port Scan \u2192 Privilege
+      Escalation, kills the target outright. The chain's commands are then all purged"
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2929285859344387
+    m_Localized: For {glitchTurns} {glitchTurns:plural:turn|turns}, each of the target's
+      actions has a {glitchPercent}% chance to cause a System Error first
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2929285859344388
+    m_Localized: Reduce the target's memory by {memoryDrain}
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2929285859344389
+    m_Localized: Lose {hpCost} HP
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2943692442140672
+    m_Localized: Deal {damage} damage
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 2943692479889408
+    m_Localized: Deal {damage} damage
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 4808893256925184
+    m_Localized: Infect every unit, yourself included, with a virus that deals {allPoison}
+      damage at the end of each turn
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 4808893315645440
+    m_Localized: Repeat the effect of the command you executed just before it this
+      turn. Token costs are paid again; without enough tokens it fizzles
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 4808893315645441
+    m_Localized: Deal {flushDamage} damage. If your buffer is empty when it runs,
+      deal {flushBonus} more
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 4808893315645442
+    m_Localized: Purge up to {blockPurge} {blockPurge:plural:command|commands} from
+      your buffer and gain {blockPerPurge} Block for each
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 4808893315645443
+    m_Localized: Purge up to {healPurge} {healPurge:plural:command|commands} from
+      your buffer and heal {healPerPurge} HP for each
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 4808893315645444
+    m_Localized: Pay {tokenCost} tokens to deal {damage} damage that ignores Block
+      (not refunded on defeat)
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 4808893315645445
+    m_Localized: Deal {damagePerBuffer} damage for each command in your buffer when
+      it runs
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 4808893315645446
+    m_Localized: '{chancePercent}% chance to deal {chanceDamage} damage'
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 4808893315645447
+    m_Localized: Deal damage equal to your current Block, then halve your Block
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 4808893315645448
+    m_Localized: Remove every effect commands have put on every unit, Block included
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 4808893315645449
+    m_Localized: Remove all of the target's Block
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 4808893315645450
+    m_Localized: Deal damage equal to {targetHpPercent}% of the target's current
+      HP
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 6279467858624512
+    m_Localized: Deal {damage} damage
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 6279467904761856
+    m_Localized: Heal {heal} HP
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 6279467904761857
+    m_Localized: Gain {block} Block
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 6279467904761858
+    m_Localized: Spawn a Spyware with {summonHp} HP
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 6281377642676224
+    m_Localized: Deal {forensicsDamage} damage, plus {forensicsPerDefeat} for each
+      enemy defeated this battle
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  - m_Id: 17153132674383872
+    m_Localized: Deal {damage} damage that ignores Block
+    m_Metadata:
+      m_Items:
+      - rid: 2090394317060833358
+  references:
+    version: 2
+    RefIds:
+    - rid: 2090394317060833358
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 796901376
+        - id: 872398848
+        - id: 864010240
+        - id: 20932911415296
+        - id: 60788015857664
+        - id: 736696850677760
+        - id: 1905124491886601
+        - id: 736696892620800
+        - id: 1905124458332160
+        - id: 1905124491886592
+        - id: 1905124491886593
+        - id: 1905124491886594
+        - id: 1905124491886595
+        - id: 1905124491886596
+        - id: 1905124491886597
+        - id: 1905124491886598
+        - id: 1905124491886599
+        - id: 1905124491886600
+        - id: 1905124491886602
+        - id: 2262705949343744
+        - id: 2262705987092480
+        - id: 2262705987092481
+        - id: 2262705987092482
+        - id: 2262705987092483
+        - id: 2262705987092484
+        - id: 2262705987092485
+        - id: 2262705987092486
+        - id: 2262705987092487
+        - id: 2262705987092488
+        - id: 2262705987092489
+        - id: 2262705987092490
+        - id: 2262705987092491
+        - id: 2269353644359680
+        - id: 2269353694691328
+        - id: 2269353694691329
+        - id: 2269353694691330
+        - id: 2929285825789952
+        - id: 2929285859344384
+        - id: 2929285859344385
+        - id: 2929285859344386
+        - id: 2929285859344387
+        - id: 2929285859344388
+        - id: 2929285859344389
+        - id: 2943692442140672
+        - id: 2943692479889408
+        - id: 4808893256925184
+        - id: 4808893315645440
+        - id: 4808893315645441
+        - id: 4808893315645442
+        - id: 4808893315645443
+        - id: 4808893315645444
+        - id: 4808893315645445
+        - id: 4808893315645446
+        - id: 4808893315645447
+        - id: 4808893315645448
+        - id: 4808893315645449
+        - id: 4808893315645450
+        - id: 6279467858624512
+        - id: 6279467904761856
+        - id: 6279467904761857
+        - id: 6279467904761858
+        - id: 6281377642676224
+        - id: 17153132674383872

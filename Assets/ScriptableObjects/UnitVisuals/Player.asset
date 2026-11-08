@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fa4c210a4f65224586f6592e540510f, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: Live2DCardRogue.Runtime::Live2DCardRogue.Common.ScriptableObjects.SpriteSheetUnitVisualDefinition
+  _icon: {fileID: 21300000, guid: e7618d1af6cf2824d9dc0bc37559c5fb, type: 3}
+  _idleFrames:
+  - {fileID: 21300000, guid: 3a0957849f823cc49b43be4190b3da95, type: 3}
+  - {fileID: 21300000, guid: ac38126084e01ed4cb5ddcd43a70463d, type: 3}
+  - {fileID: 21300000, guid: 6ab3dc8621cf4b945bc95656918b8da3, type: 3}
+  - {fileID: 21300000, guid: a0bc70e178cc93447aaf23c3a7bc5d08, type: 3}
+  - {fileID: 21300000, guid: d82ffed9883c37e4ea72a49c3eda773e, type: 3}
+  - {fileID: 21300000, guid: c9c28dc6edfbfe741b38468343d2202f, type: 3}
+  - {fileID: 21300000, guid: b0fbec8682bb2b84fabc96bd1258b59d, type: 3}
+  - {fileID: 21300000, guid: 991c989f4f7173d44b13a8783074a5ed, type: 3}
+  _idleFps: 5
+  _actionFrames:
+  - {fileID: 21300000, guid: e2cec39f4971e934682c912333b57a39, type: 3}
+  - {fileID: 21300000, guid: 29ee90f0e2ae2ec47bcb5935c1c94cef, type: 3}
+  - {fileID: 21300000, guid: 9b895f722ab4109428374f5469609291, type: 3}
+  - {fileID: 21300000, guid: 0148e77da45550148aca69e074e19c13, type: 3}
+  _actionFps: 10
+  _hitFrames:
+  - {fileID: 21300000, guid: b3fc7d466a47c194b8e1ea4db9a0d69d, type: 3}
+  - {fileID: 21300000, guid: 0aa69c4891a37bf4ca2c67e8a8e5f5a2, type: 3}
+  _hitFps: 5

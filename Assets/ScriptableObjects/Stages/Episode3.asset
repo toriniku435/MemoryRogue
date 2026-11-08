@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5657ae08338704b43b7bbe664094000e, type: 3}
+  m_Name: Episode3
+  m_EditorClassIdentifier: Live2DCardRogue.Runtime::Live2DCardRogue.Common.ScriptableObjects.CampaignData
+  _stages:
+  - {fileID: 11400000, guid: 37215d82a5b1906468a88ad3c2b1e369, type: 2}
+  - {fileID: 11400000, guid: 5c86ea246b385324988f7a63fe914783, type: 2}
+  - {fileID: 11400000, guid: ab1ca33b324c4f744851fa015a664bbb, type: 2}
+  - {fileID: 11400000, guid: f74d1c6f9da327f4e89d6f319d9971f6, type: 2}
+  - {fileID: 11400000, guid: 9561c93a0d78e334fa58edc0a2c12607, type: 2}
+  - {fileID: 11400000, guid: e921d50a49128c1489bbe91b683d96f9, type: 2}
+  - {fileID: 11400000, guid: 11f3d2769fe120d428019e1cb5576e23, type: 2}
+  - {fileID: 11400000, guid: af69da82582ea7f44ac44813b5840452, type: 2}
+  - {fileID: 11400000, guid: 98f941ff73efe8b4a9cc11270d6a194a, type: 2}
+  - {fileID: 11400000, guid: a46f565076bb28a44bb97c11adae77d0, type: 2}
+  _openingConversation: {fileID: 0}

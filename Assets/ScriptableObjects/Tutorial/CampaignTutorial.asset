@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32406fdfaf6e9d64c96ee11b850a4ac5, type: 3}
+  m_Name: CampaignTutorial
+  m_EditorClassIdentifier: Live2DCardRogue.Runtime::Live2DCardRogue.Common.ScriptableObjects.CampaignTutorialData
+  _mapSequence: {fileID: 11400000, guid: b693f57241cdc3243873ecddeef3d2af, type: 2}
+  _battleSequence: {fileID: 11400000, guid: e70d4bcb362367b4f8a505e055b2467d, type: 2}
+  _deck:
+  - {fileID: 11400000, guid: 1177637397447294cb5b357249549ed6, type: 2}
+  - {fileID: 11400000, guid: e47b8f573aaf49248a9bf547fb13c648, type: 2}
+  - {fileID: 11400000, guid: 2f2ad461468af0b448e982560c927064, type: 2}
+  - {fileID: 11400000, guid: 86fd01eed0f0a9a4a9a35c665c4e7e3d, type: 2}
+  - {fileID: 11400000, guid: de68664f08788ec4794df704351f80bf, type: 2}
+  - {fileID: 11400000, guid: de68664f08788ec4794df704351f80bf, type: 2}
+  - {fileID: 11400000, guid: ac6a3bccef40d304889163492af2d101, type: 2}
+  - {fileID: 11400000, guid: 1177637397447294cb5b357249549ed6, type: 2}
+  - {fileID: 11400000, guid: e47b8f573aaf49248a9bf547fb13c648, type: 2}
+  - {fileID: 11400000, guid: 1177637397447294cb5b357249549ed6, type: 2}
+  _enemies:
+  - {fileID: 11400000, guid: 4b3f99edcb97dc1479fc5582f6a9702b, type: 2}
+  _playerMaxHp: 100
+  _playerStartHp: 70
+  _playerMaxMemory: 10

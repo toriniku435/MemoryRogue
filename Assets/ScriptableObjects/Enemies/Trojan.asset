@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c36e8ca0464ab4a887e722aa1d2e3d, type: 3}
+  m_Name: Trojan
+  m_EditorClassIdentifier: Live2DCardRogue.Runtime::Live2DCardRogue.Common.ScriptableObjects.EnemyData
+  _id: Trojan
+  _maxHp: 130
+  _portrait: {fileID: 21300000, guid: 24150a3f03d9a7c48a5bc46131adbb9d, type: 3}
+  _visual: {fileID: 11400000, guid: 091533d88f3caf44f8b1070bd751daa7, type: 2}
+  _minActionCount: 1
+  _maxActionCount: 2
+  _cards:
+  - {fileID: 11400000, guid: cd52c4e331e3ce240b759f0f36e82ab4, type: 2}
+  - {fileID: 11400000, guid: 71efd346c15a7584ea1cd8549d3af357, type: 2}
+  - {fileID: 11400000, guid: 8a9b82c6cb3aeb247ae75f3fda998d14, type: 2}
+  - {fileID: 11400000, guid: 1fe4e830b4e49c744b8c677a10bdb4d7, type: 2}
+  - {fileID: 11400000, guid: 47d806e74ef1212499d577e6ae5bd446, type: 2}
+  - {fileID: 11400000, guid: 6c33974380de3e24dacbd9217b043f70, type: 2}
+  _cardPicker:
+    rid: 2090394181379031127
+  _initialStatusEffectDefinitions: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 2090394181379031127
+      type: {class: RandomEnemyCardPicker, ns: Live2DCardRogue.Common.Models.EnemyCardPickers, asm: Live2DCardRogue.Runtime}
+      data: 

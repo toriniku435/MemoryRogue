@@ -1,0 +1,280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: CardDescription Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: CardDescription
+  m_TableCollectionNameGuidString: 9db8e01644d7a9747b10bf02ace581ad
+  m_Entries:
+  - m_Id: 796901376
+    m_Key: Attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 864010240
+    m_Key: Block
+    m_Metadata:
+      m_Items: []
+  - m_Id: 872398848
+    m_Key: StrongAttack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20932911415296
+    m_Key: Poison
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60788015857664
+    m_Key: Strength
+    m_Metadata:
+      m_Items: []
+  - m_Id: 736696850677760
+    m_Key: Heal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 736696892620800
+    m_Key: Regeneration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1905124458332160
+    m_Key: Overclock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1905124491886592
+    m_Key: Exploit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1905124491886593
+    m_Key: CacheExpand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1905124491886594
+    m_Key: Overload
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1905124491886595
+    m_Key: Firewall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1905124491886596
+    m_Key: Interrupt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1905124491886597
+    m_Key: PowerSurge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1905124491886598
+    m_Key: Backup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1905124491886599
+    m_Key: Siphon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1905124491886600
+    m_Key: Broadcast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1905124491886601
+    m_Key: Repair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1905124491886602
+    m_Key: Corrupt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2262705949343744
+    m_Key: Loopback
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2262705987092480
+    m_Key: Multithread
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2262705987092481
+    m_Key: Mining
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2262705987092482
+    m_Key: ReversePatch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2262705987092483
+    m_Key: KernelPanic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2262705987092484
+    m_Key: TrojanVirus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2262705987092485
+    m_Key: RootkitShell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2262705987092486
+    m_Key: RootkitProbe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2262705987092487
+    m_Key: RootkitVirus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2262705987092488
+    m_Key: SpyKeylogger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2262705987092489
+    m_Key: SpyVirus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2262705987092490
+    m_Key: BotRepair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2262705987092491
+    m_Key: BotDdos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2269353644359680
+    m_Key: Bypass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2269353694691328
+    m_Key: BufferOverflow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2269353694691329
+    m_Key: RepairPacket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2269353694691330
+    m_Key: Worm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2929285825789952
+    m_Key: GarbageCollection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2929285859344384
+    m_Key: PortScan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2929285859344385
+    m_Key: PrivilegeEscalation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2929285859344386
+    m_Key: Terminate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2929285859344387
+    m_Key: CodeInjection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2929285859344388
+    m_Key: SpyMemoryLeak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2929285859344389
+    m_Key: SystemError
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2943692442140672
+    m_Key: TrojanBackdoor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2943692479889408
+    m_Key: TrojanPayload
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4808893256925184
+    m_Key: ZeroDay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4808893315645440
+    m_Key: Redo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4808893315645441
+    m_Key: Flush
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4808893315645442
+    m_Key: SwapOut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4808893315645443
+    m_Key: Defrag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4808893315645444
+    m_Key: CloudBurst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4808893315645445
+    m_Key: Pipeline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4808893315645446
+    m_Key: BruteForce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4808893315645447
+    m_Key: Reflection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4808893315645448
+    m_Key: Format
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4808893315645449
+    m_Key: TrojanBreach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4808893315645450
+    m_Key: RootkitHijack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6279467858624512
+    m_Key: RansomEncrypt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6279467904761856
+    m_Key: RansomRestore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6279467904761857
+    m_Key: RansomShield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6279467904761858
+    m_Key: RansomSpawn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6281377642676224
+    m_Key: Forensics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17153132674383872
+    m_Key: Overwrite
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2090394181379031121
+  references:
+    version: 2
+    RefIds:
+    - rid: 2090394181379031121
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1789954307578

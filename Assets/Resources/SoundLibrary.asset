@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f3563142dfba54fab830343a470326, type: 3}
+  m_Name: SoundLibrary
+  m_EditorClassIdentifier: Live2DCardRogue.Runtime::Live2DCardRogue.Common.Audio.SoundLibrary
+  _seVolume: 0.8
+  _bgmVolume: 0.45
+  _bgmCrossfade: 0.8
+  _seMinInterval: 0.04
+  _se:
+  - Id: Hover
+    Clip: {fileID: 8300000, guid: 05a4354f9e3d7ae46ad5f8aed9d1acc6, type: 3}
+    Volume: 0.5
+    PitchJitter: 0.06
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: Click
+    Clip: {fileID: 8300000, guid: 0283728ad5af1434283264fe5e314c5d, type: 3}
+    Volume: 0.8
+    PitchJitter: 0.04
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: Confirm
+    Clip: {fileID: 8300000, guid: 519b836188a8a164faa8cf3ad1d867e6, type: 3}
+    Volume: 0.9
+    PitchJitter: 0
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: Cancel
+    Clip: {fileID: 8300000, guid: 0b5827481ada60942b8c881fd146b515, type: 3}
+    Volume: 0.8
+    PitchJitter: 0
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: Error
+    Clip: {fileID: 8300000, guid: ee22aaa43a1813b40baf621ba5a4cc37, type: 3}
+    Volume: 0.8
+    PitchJitter: 0
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: CardSelect
+    Clip: {fileID: 8300000, guid: 473468fb20e57ab4ea0631072c71b55b, type: 3}
+    Volume: 0.7
+    PitchJitter: 0.05
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: MemoryWrite
+    Clip: {fileID: 8300000, guid: 2f78d8d4c72277a40ae4a0004081f4af, type: 3}
+    Volume: 0.8
+    PitchJitter: 0.03
+    Clip2: {fileID: 0}
+    Volume2: 0.536
+    Delay2: 0
+  - Id: CardReturn
+    Clip: {fileID: 8300000, guid: c4c25ec81849fb14bb0a1833e604dfe0, type: 3}
+    Volume: 0.8
+    PitchJitter: 0.03
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: CommandExecute
+    Clip: {fileID: 8300000, guid: caa539fab3371ff4297b6bbb18519a78, type: 3}
+    Volume: 0.9
+    PitchJitter: 0.04
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: WindowOpen
+    Clip: {fileID: 8300000, guid: 40d0d4d499a0bd44999fdd8066502a8f, type: 3}
+    Volume: 1
+    PitchJitter: 0
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: WindowClose
+    Clip: {fileID: 8300000, guid: 4ff227c7fbf767b4ab0d0c17faf8f80f, type: 3}
+    Volume: 0.9
+    PitchJitter: 0
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: Transition
+    Clip: {fileID: 8300000, guid: 8e94901dca3f4fc468f8e6141822454b, type: 3}
+    Volume: 0.8
+    PitchJitter: 0
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: Reward
+    Clip: {fileID: 8300000, guid: 63c064c9b82472f49a5ea19cc7e50795, type: 3}
+    Volume: 1
+    PitchJitter: 0
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: BackupBoost
+    Clip: {fileID: 8300000, guid: 05cd15ede903c9f41817c6966b9a748e, type: 3}
+    Volume: 1
+    PitchJitter: 0
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: TokenTick
+    Clip: {fileID: 8300000, guid: cbab25f9e64590446961d78a55674597, type: 3}
+    Volume: 0.6
+    PitchJitter: 0
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: RankReveal
+    Clip: {fileID: 8300000, guid: eaf55d10194b4d34eaf8e0657eb3b973, type: 3}
+    Volume: 1
+    PitchJitter: 0
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: InstallCharge
+    Clip: {fileID: 8300000, guid: 62954e52bb866d64da8cd5b3b0e495ef, type: 3}
+    Volume: 0.7
+    PitchJitter: 0
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: InstallPromote
+    Clip: {fileID: 8300000, guid: c18ac10fa21040542b7b16c14d8b6ab8, type: 3}
+    Volume: 0.9
+    PitchJitter: 0
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: InstallPromoteEpic
+    Clip: {fileID: 8300000, guid: 906eb3833470cfc43b86a57e2d20f744, type: 3}
+    Volume: 1
+    PitchJitter: 0
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: CardFlip
+    Clip: {fileID: 8300000, guid: bd24a761ce6d2184ea1fc19e5b6292dc, type: 3}
+    Volume: 0.9
+    PitchJitter: 0.06
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: EnemyAction
+    Clip: {fileID: 8300000, guid: 3d477e0c948fb1340bb0730a7ec79429, type: 3}
+    Volume: 0.8
+    PitchJitter: 0.04
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: Hit
+    Clip: {fileID: 8300000, guid: 0c5a7c21347697d4d8e7eeb69f399def, type: 3}
+    Volume: 0.8
+    PitchJitter: 0.08
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: Heal
+    Clip: {fileID: 8300000, guid: e431c776beebe5548b85a035ca4081c2, type: 3}
+    Volume: 0.7
+    PitchJitter: 0.03
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: VirusTick
+    Clip: {fileID: 8300000, guid: 67b13b819fd180e4990fad2756a7d900, type: 3}
+    Volume: 0.7
+    PitchJitter: 0.06
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: BlockGain
+    Clip: {fileID: 8300000, guid: 2f78d8d4c72277a40ae4a0004081f4af, type: 3}
+    Volume: 1
+    PitchJitter: 0
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: BlockAbsorb
+    Clip: {fileID: 8300000, guid: 0c5a7c21347697d4d8e7eeb69f399def, type: 3}
+    Volume: 0.464
+    PitchJitter: 0.021
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  - Id: BlockBreak
+    Clip: {fileID: 8300000, guid: bd24a761ce6d2184ea1fc19e5b6292dc, type: 3}
+    Volume: 1
+    PitchJitter: 0
+    Clip2: {fileID: 0}
+    Volume2: 1
+    Delay2: 0
+  _bgm:
+  - Id: Title
+    Clip: {fileID: 8300000, guid: 00e6cf40bbfd52747b091cc66e4e68bb, type: 3}
+    Volume: 1
+  - Id: Map
+    Clip: {fileID: 8300000, guid: dcc2086f4b7238846a323d383621aed3, type: 3}
+    Volume: 1
+  - Id: Battle
+    Clip: {fileID: 8300000, guid: 6c66d92301c8ea04485a56a41f05226a, type: 3}
+    Volume: 1
+  - Id: BossBattle
+    Clip: {fileID: 8300000, guid: 6c66d92301c8ea04485a56a41f05226a, type: 3}
+    Volume: 1

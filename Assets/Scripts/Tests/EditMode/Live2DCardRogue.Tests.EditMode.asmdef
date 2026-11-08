@@ -1,0 +1,28 @@
+{
+    "name": "Live2DCardRogue.Tests.EditMode",
+    "rootNamespace": "",
+    "references": [
+        "Live2DCardRogue.Runtime",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "Unity.Localization",
+        "Unity.Localization.Editor",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0849312868a0834689ea59cd009357d, type: 3}
+  m_Name: CommandCollection
+  m_EditorClassIdentifier: Live2DCardRogue.Runtime::Live2DCardRogue.Common.ScriptableObjects.CommandCollectionData
+  _packs:
+  - {fileID: 11400000, guid: a83022fa29f1dc14cb42322d1f8519ac, type: 2}
+  - {fileID: 11400000, guid: e16ff72f5c22581468fa8184d4e729a4, type: 2}
+  - {fileID: 11400000, guid: be6ee1e4bf3c2cb46822705a12b9b1a8, type: 2}
+  - {fileID: 11400000, guid: ec77bafdfeff6014f80f8c67ad5c630a, type: 2}
+  - {fileID: 11400000, guid: 809137691ab4fcf43b5ed4509a4ea1d6, type: 2}
+  _otherCards:
+  - {fileID: 11400000, guid: 1fe4e830b4e49c744b8c677a10bdb4d7, type: 2}

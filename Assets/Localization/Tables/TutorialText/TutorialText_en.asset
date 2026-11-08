@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: TutorialText_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 7673b1263cd3fd34ba38962931034b66, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1062699008
+    m_Localized: Welcome. This is the network map. Break into the rooms (layers)
+      one after another; get through the last one to clear the story.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1146585088
+    m_Localized: This is the room you are in. Win its battle to move on to the next
+      room. If you lose, you receive support tokens and can try again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973696
+    m_Localized: This shows how deep you are.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973697
+    m_Localized: Check the next opponent's traits and commands in Enemy Info.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973698
+    m_Localized: When you are ready, press Connect to start the battle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973699
+    m_Localized: Command Build lets you rebuild your deck from the commands you own.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973700
+    m_Localized: Tokens are your currency. You earn them from battle rewards and
+      more.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973701
+    m_Localized: At the Market, spend tokens on chips (bundles of commands) or on
+      single commands.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973702
+    m_Localized: Upgrade raises your max HP and max memory with tokens.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973703
+    m_Localized: You can replay this tutorial with this button at any time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973704
+    m_Localized: Now let's learn the controls in a practice battle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973705
+    m_Localized: A practice battle. Combine commands and bring the enemy's HP down
+      to zero to win.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973706
+    m_Localized: This is the enemy. Below its name are its HP and what it will do
+      on its next turn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973707
+    m_Localized: This is your unit. You lose if its HP runs out.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973708
+    m_Localized: 'The buffer: the commands you can use this turn. You draw them from
+      your deck every turn.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973709
+    m_Localized: 'Memory: loading a command uses up its cost (the number at its top
+      left). It refills every turn.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973710
+    m_Localized: Click Attack to load it into the command memory.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168000
+    m_Localized: Loaded commands run in order from 0x00 when you execute. Click a
+      loaded command to take it back.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168001
+    m_Localized: Block raises a wall that stops attack damage. Load it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168002
+    m_Localized: Regeneration is a lasting effect that restores HP at the end of
+      every turn. Load it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168003
+    m_Localized: Commands you lack the memory for are darkened, with their cost in
+      magenta. You can't load them now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168004
+    m_Localized: Execute runs the loaded commands in order and ends your turn. Press
+      it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168005
+    m_Localized: 'The enemy infected you with a virus: a lasting effect that deals
+      damage at the end of each turn, while Regeneration heals you. Effects on you
+      are listed under your HP.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168006
+    m_Localized: Used commands and the unused buffer go to the archive at the end
+      of each turn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168007
+    m_Localized: Every turn you draw from the deck into the buffer. When the deck
+      runs out, the archive is shuffled back into it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168008
+    m_Localized: Heal restores HP. Load it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168009
+    m_Localized: Mining costs HP but raises the tokens you win. It is purged once
+      used. Load it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168010
+    m_Localized: Now execute.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168011
+    m_Localized: Purged commands go here and do not come back for the rest of this
+      battle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168012
+    m_Localized: That's all. Fight freely and defeat the enemy!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

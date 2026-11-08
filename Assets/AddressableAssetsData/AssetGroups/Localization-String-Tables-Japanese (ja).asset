@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Japanese (ja)
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Localization-String-Tables-Japanese (ja)
+  m_GUID: dc5fdb8210cd782479d6c6aa1b80b9a4
+  m_SerializeEntries:
+  - m_GUID: 0005edb6e442c7b46945836af4dc63b5
+    m_Address: StatusEffectDescription_ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ac4d687e5b87c2468ae3d30d7ba3827
+    m_Address: StatusEffectName_ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d8b92ba1e90e034bb41b8dff999ad5f
+    m_Address: EnemyDescription_ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cf48a3436da3194781d05724e4a383e
+    m_Address: StatusEffectLogDetail_ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 704f24df4c572024da7981ab8db6f59e
+    m_Address: EnemyName_ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85c4518a8117d914499eb588c9bc1fad
+    m_Address: UIText_ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acd8535ef638b46498bec42136a99ba9
+    m_Address: CardPackDescription_ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0083c449d337a94f9f4ce7e8ec7dfa3
+    m_Address: CardName_ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca661fb977196e046ab73a5f4e184101
+    m_Address: TutorialText_ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d53142e8dc126cd4eb83c2253cfab5a5
+    m_Address: CardDescription_ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff993facbd3e90f4da3545f40f280b8a
+    m_Address: CardPackName_ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: e89cedd67fc0a8b47bfbfb4785e4b573, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: bb85f914843086e44b004bcb0722e61b, type: 2}
+    - {fileID: 11400000, guid: 17e395d29cffe2142b8bcb5b28d257e9, type: 2}
+    - {fileID: 11400000, guid: 426952975382740438da5acb99e3ba5f, type: 2}

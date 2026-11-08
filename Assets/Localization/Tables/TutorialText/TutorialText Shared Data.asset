@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: TutorialText Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: TutorialText
+  m_TableCollectionNameGuidString: 7673b1263cd3fd34ba38962931034b66
+  m_Entries:
+  - m_Id: 1062699008
+    m_Key: Map_Welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1146585088
+    m_Key: Map_Room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973696
+    m_Key: Map_Depth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973697
+    m_Key: Map_EnemyDetail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973698
+    m_Key: Map_StageStart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973699
+    m_Key: Map_DeckEdit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973700
+    m_Key: Map_Tokens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973701
+    m_Key: Map_Market
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973702
+    m_Key: Map_Upgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973703
+    m_Key: Map_Replay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973704
+    m_Key: Map_ToBattle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973705
+    m_Key: Battle_Intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973706
+    m_Key: Battle_Enemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973707
+    m_Key: Battle_Player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973708
+    m_Key: Battle_Buffer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973709
+    m_Key: Battle_Memory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1154973710
+    m_Key: Battle_QueueAttack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168000
+    m_Key: Battle_CommandMemory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168001
+    m_Key: Battle_QueueBlock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168002
+    m_Key: Battle_QueueRegeneration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168003
+    m_Key: Battle_NotEnoughMemory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168004
+    m_Key: Battle_Execute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168005
+    m_Key: Battle_LastingEffects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168006
+    m_Key: Battle_Archive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168007
+    m_Key: Battle_Draw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168008
+    m_Key: Battle_QueueHeal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168009
+    m_Key: Battle_QueueMining
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168010
+    m_Key: Battle_Execute2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168011
+    m_Key: Battle_Purge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159168012
+    m_Key: Battle_End
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2090394364956639325
+  references:
+    version: 2
+    RefIds:
+    - rid: 2090394364956639325
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1790676646135

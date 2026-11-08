@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fa4c210a4f65224586f6592e540510f, type: 3}
+  m_Name: Botnet
+  m_EditorClassIdentifier: Live2DCardRogue.Runtime::Live2DCardRogue.Common.ScriptableObjects.SpriteSheetUnitVisualDefinition
+  _icon: {fileID: 21300000, guid: eaab98c32e11df54ea49e61b7a2b5b3a, type: 3}
+  _idleFrames:
+  - {fileID: 21300000, guid: beaa176d25a7cfb4abf9a493bed6ae07, type: 3}
+  - {fileID: 21300000, guid: fc9d32d9f585c7e428c411e33a268c15, type: 3}
+  - {fileID: 21300000, guid: 90e10664401aa7347acfd35a8e0f1f32, type: 3}
+  - {fileID: 21300000, guid: 90af64d575e48df4ca10e0ec79f311d4, type: 3}
+  _idleFps: 5
+  _actionFrames:
+  - {fileID: 21300000, guid: 84b6fe7f772b467479ac65f7ad42590d, type: 3}
+  - {fileID: 21300000, guid: dbc3214ccaa994a4ca13ca64654ec327, type: 3}
+  - {fileID: 21300000, guid: 27d5c598c4bdf6346a328cd92604cb37, type: 3}
+  - {fileID: 21300000, guid: 834bb8ac9e0a934478fc2ec09968bc2b, type: 3}
+  _actionFps: 10
+  _hitFrames:
+  - {fileID: 21300000, guid: 2869c42997878614597dd236a2eee838, type: 3}
+  - {fileID: 21300000, guid: 4be1740df4bc9844b837129587709439, type: 3}
+  _hitFps: 5

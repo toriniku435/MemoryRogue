@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: EnemyName Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: EnemyName
+  m_TableCollectionNameGuidString: dfba1c3131a1f2948bc3bd3236e96f6a
+  m_Entries:
+  - m_Id: 701988864
+    m_Key: Trojan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357582343995392
+    m_Key: Rootkit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357582385938432
+    m_Key: Spyware
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357582385938433
+    m_Key: Botnet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1124585061187584
+    m_Key: TutorialTrojan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4374344261664768
+    m_Key: Ransomware
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2090394295564763244
+  references:
+    version: 2
+    RefIds:
+    - rid: 2090394295564763244
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1790408524450

@@ -1,0 +1,24 @@
+{
+    "name": "Live2DCardRogue.Tests.PlayMode",
+    "rootNamespace": "",
+    "references": [
+        "Live2DCardRogue.Runtime",
+        "Unity.Localization",
+        "Unity.ResourceManager",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

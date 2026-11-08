@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StatusEffectName_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: a3c1af613c5cba140b1ad2c615951158, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 802652160
+    m_Localized: Block
+    m_Metadata:
+      m_Items: []
+  - m_Id: 861372416
+    m_Localized: Virus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 869761024
+    m_Localized: Virus Resistance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 873955328
+    m_Localized: Strength
+    m_Metadata:
+      m_Items: []
+  - m_Id: 661711511584768
+    m_Localized: Regeneration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830139102461952
+    m_Localized: Memory Boost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830139169570816
+    m_Localized: Buffer Up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830139169570817
+    m_Localized: Buffer Down
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830139169570818
+    m_Localized: Stunned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830139169570819
+    m_Localized: Corrupted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187720639610880
+    m_Localized: Loopback
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187720748662784
+    m_Localized: Multithread
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187720748662785
+    m_Localized: Mining Bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2194368305266688
+    m_Localized: Worm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2854300474114048
+    m_Localized: Virus Immune
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2854300507668480
+    m_Localized: Corruption Immune
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2854300507668481
+    m_Localized: Kill Immune
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2854300507668482
+    m_Localized: Buffer Lock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2854300507668483
+    m_Localized: Glitch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2854300507668484
+    m_Localized: Exploit Chain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4627007268159488
+    m_Localized: Layer Boost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17078147872161792
+    m_Localized: Overcharge
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

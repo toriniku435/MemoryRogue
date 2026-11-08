@@ -1,0 +1,695 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UIText_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: f39d1103f062b17469aadddce20ad248, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 658489344
+    m_Localized: COMMAND DECK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 738181120
+    m_Localized: ARCHIVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730980333092864
+    m_Localized: Execute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 811824586391552
+    m_Localized: Story
+    m_Metadata:
+      m_Items: []
+  - m_Id: 811824678666240
+    m_Localized: Endless
+    m_Metadata:
+      m_Items: []
+  - m_Id: 811824678666241
+    m_Localized: Collection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 811824682860544
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 816333861650432
+    m_Localized: Connect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 822905056755712
+    m_Localized: Command Build
+    m_Metadata:
+      m_Items: []
+  - m_Id: 822905132253184
+    m_Localized: Owned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 822905132253185
+    m_Localized: Deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 826713728057344
+    m_Localized: Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 826713795166208
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 831756657197056
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 831756732694528
+    m_Localized: Market
+    m_Metadata:
+      m_Items: []
+  - m_Id: 831756732694529
+    m_Localized: Buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 831756732694530
+    m_Localized: Tokens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1901562210779136
+    m_Localized: Acquired Commands
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1901562282082304
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1906484918583296
+    m_Localized: Start the connection?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1906484977303552
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2155539892502528
+    m_Localized: Clear Reward Acquired!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2155539951222784
+    m_Localized: Firewall breached. Encrypted loot decrypted.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2155539951222785
+    m_Localized: Backup Boost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2155539951222786
+    m_Localized: 'Connection lost. Transferring support tokens.
+
+      Upgrade your
+      deck at the Market and dive back in.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2155539951222787
+    m_Localized: Claim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2155539951222788
+    m_Localized: Reboot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171074227175424
+    m_Localized: Result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171074302672896
+    m_Localized: Remaining Tokens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171074302672897
+    m_Localized: Backup Boosts Used
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171074302672898
+    m_Localized: Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171074302672899
+    m_Localized: Rank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171074302672900
+    m_Localized: Back to Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183234449801216
+    m_Localized: Log
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183234525298688
+    m_Localized: You
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183234525298689
+    m_Localized: 'Turn {0}: your move'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183234525298690
+    m_Localized: Enemy move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183234525298691
+    m_Localized: '{0} uses {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183234525298692
+    m_Localized: '{0} uses {1} on {2}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183234525298693
+    m_Localized: '{0} takes {1} damage'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183234525298694
+    m_Localized: '{0} recovers {1} HP'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183234525298695
+    m_Localized: '{0} takes {1} damage over time'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183234525298696
+    m_Localized: '{0} recovers {1} HP over time'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183234525298697
+    m_Localized: '{0} gains {1} ({2})'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183234525298698
+    m_Localized: '{0}''s {1} {2}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183234525298699
+    m_Localized: '{0}''s {1} wore off'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183234525298700
+    m_Localized: '{0} is down'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2183234525298701
+    m_Localized: '{0} is stunned and can''t act'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191533954007040
+    m_Localized: Install it to gain {0} commands and power up your deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207764236959744
+    m_Localized: Upgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207764320845824
+    m_Localized: HP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207764320845825
+    m_Localized: Max Memory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207764320845826
+    m_Localized: Upgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2244945219387392
+    m_Localized: You have a suspended story
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2244945282301952
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2244945282301953
+    m_Localized: Discard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2246809625264128
+    m_Localized: Discard this story?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2246809683984384
+    m_Localized: The suspended story cannot be restored
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2246809683984385
+    m_Localized: Discard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2257730720464896
+    m_Localized: First Build  {0} Chips
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2257730804350976
+    m_Localized: '{0} commands were set into your deck automatically'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2257730808545280
+    m_Localized: Set to Deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2270374009470976
+    m_Localized: Purged
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2270374047219712
+    m_Localized: '{0} was purged'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2270374047219713
+    m_Localized: '{0} returns to the buffer next turn'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2270374047219714
+    m_Localized: All commands have been purged
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2305398331113472
+    m_Localized: Buffer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2305398385639424
+    m_Localized: Choose commands in the buffer to purge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2305398385639425
+    m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2312796336783360
+    m_Localized: Battle Speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2312796420669440
+    m_Localized: Reset to Default
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2312796420669441
+    m_Localized: Apply
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2312796420669442
+    m_Localized: Discard your changes?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2312796420669443
+    m_Localized: Discard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2940205562036224
+    m_Localized: // NEXT ACTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2940205616562176
+    m_Localized: // STATUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2940205616562177
+    m_Localized: Auto Build
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2948542148083712
+    m_Localized: '{0} Blocked'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2984128959447040
+    m_Localized: '{0} actions / turn'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2984128993001472
+    m_Localized: Commands
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2989845401534464
+    m_Localized: '{0} takes {1} damage from {2}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2989845493809152
+    m_Localized: '{0} recovers {1} HP from {2}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2995733222883328
+    m_Localized: Enemy Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3005097220472832
+    m_Localized: Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3005097279193088
+    m_Localized: Give Up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3005097279193089
+    m_Localized: Give up this battle?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3005097279193090
+    m_Localized: It counts as a defeat, and you receive a Backup Boost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010394718699520
+    m_Localized: Chips
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010394781614080
+    m_Localized: Singles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010394781614081
+    m_Localized: '{0}  Cost {1}  Left {2}/{3}  Owned {4}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010394781614082
+    m_Localized: Left {0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010394781614083
+    m_Localized: Sold out
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010394781614084
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010394781614085
+    m_Localized: Rare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3010394781614086
+    m_Localized: Epic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3017206532636672
+    m_Localized: Owned {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3021284872519680
+    m_Localized: Max {0} per deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3037376529530880
+    m_Localized: Watch the tutorial?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3037376575668224
+    m_Localized: A short guide to the map and a practice battle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3037376575668225
+    m_Localized: Watch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3037376575668226
+    m_Localized: No thanks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3037376575668227
+    m_Localized: Skip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3037376575668228
+    m_Localized: Click to continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3037376575668229
+    m_Localized: Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3660311170613248
+    m_Localized: Active
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3660311275470848
+    m_Localized: Set Active
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3664718775943168
+    m_Localized: Rebuild this deck automatically?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3664718876606464
+    m_Localized: Rebuild
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3664718876606465
+    m_Localized: Save the changes?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3664718876606466
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3671335844151296
+    m_Localized: All
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3671335944814592
+    m_Localized: Deck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3671335944814593
+    m_Localized: Library
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3675011916726272
+    m_Localized: Empty this deck?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3675011996418048
+    m_Localized: Empty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3706738148081664
+    m_Localized: Skip the tutorial?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3706738223579136
+    m_Localized: Skip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3706738223579137
+    m_Localized: The practice battle ends and you return to the map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3706738223579138
+    m_Localized: Watch the tutorial from the start?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3706738223579139
+    m_Localized: Watch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3722363272658944
+    m_Localized: Select Episode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3722363356545024
+    m_Localized: Episode {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3722363356545025
+    m_Localized: Start {0}?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3722363356545026
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3746682837106688
+    m_Localized: BGM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3746682925187072
+    m_Localized: Sound Effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3746682925187073
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3746682925187074
+    m_Localized: Display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3746682925187075
+    m_Localized: Fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3746682925187076
+    m_Localized: Windowed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3746682925187077
+    m_Localized: User Data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3746682925187078
+    m_Localized: Delete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3746682925187079
+    m_Localized: Delete your user data?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3746682925187080
+    m_Localized: Your suspended story and clear records will be erased. This cannot
+      be undone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3746682925187081
+    m_Localized: Delete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3746682925187082
+    m_Localized: User data deleted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3753994016489472
+    m_Localized: There are no commands in the buffer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3753994104569856
+    m_Localized: 'Buffer locked: no commands can be loaded this turn'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3753994104569857
+    m_Localized: Press Execute to end the turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4709660436692992
+    m_Localized: You have a suspended Challenge run
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4709660528967680
+    m_Localized: Discard this Challenge run?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4709660528967681
+    m_Localized: The suspended run cannot be restored
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4709660528967682
+    m_Localized: '{0} Result'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4709660528967683
+    m_Localized: Layers Cleared
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4709660528967684
+    m_Localized: Best Record
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4709660528967685
+    m_Localized: Layer Reached
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4709660528967686
+    m_Localized: NEW RECORD!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4721353636151296
+    m_Localized: Commands
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4721353753591808
+    m_Localized: Enemies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4725776026402816
+    m_Localized: Command Collection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4725776127066112
+    m_Localized: All
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4725776127066113
+    m_Localized: Found {0} / {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4731494754385920
+    m_Localized: Enemy Collection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4733108085030912
+    m_Localized: Not encountered yet. Fight it to record its data.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4737948668362752
+    m_Localized: Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4737948727083008
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4737948727083009
+    m_Localized: Hard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4737948727083010
+    m_Localized: Master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4737948727083011
+    m_Localized: Select Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4737948727083012
+    m_Localized: '{0}  {1} layers'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4737948727083013
+    m_Localized: Start {0}?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4737948727083014
+    m_Localized: Cleared
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4742143605702656
+    m_Localized: Suspend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4742143689588736
+    m_Localized: Suspend and return to the title?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4742143689588737
+    m_Localized: Your progress is saved. Resume it from the title.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4742143689588738
+    m_Localized: Suspend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4744318373298176
+    m_Localized: '{0}'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

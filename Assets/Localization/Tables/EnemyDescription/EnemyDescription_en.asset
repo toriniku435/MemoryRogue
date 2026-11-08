@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: EnemyDescription_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 385d3b623a1b2e94b9da8532074d8b11, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 848789504
+    m_Localized: Its payload hits hard. It repairs itself and corrupts your healing
+      into damage.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 907509760
+    m_Localized: Hides behind heavy block and wears you down with a virus. You need
+      firepower to break through.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 911704064
+    m_Localized: Fragile, but it steals your buffer and memory and ties your hands
+      with a virus and corruption. Take it down early.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 911704065
+    m_Localized: Repairs its most damaged ally and attacks with DDoS. The fight gets
+      easier once it goes down.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53248582451200
+    m_Localized: A weakened Trojan for practice. Every turn it attacks, then plants
+      a virus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3303007795511296
+    m_Localized: A data-hostage boss. It cannot be killed outright, stacks Cipher
+      Shields, and leans on self-repair as it weakens. Left alone, it calls in Spyware
+      to steal your buffer and memory. Strip its shields with Bypass and outpace
+      its healing.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

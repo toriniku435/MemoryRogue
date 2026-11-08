@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: StatusEffectName Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: StatusEffectName
+  m_TableCollectionNameGuidString: a3c1af613c5cba140b1ad2c615951158
+  m_Entries:
+  - m_Id: 802652160
+    m_Key: Block
+    m_Metadata:
+      m_Items: []
+  - m_Id: 861372416
+    m_Key: Poison
+    m_Metadata:
+      m_Items: []
+  - m_Id: 869761024
+    m_Key: PoisonResistance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 873955328
+    m_Key: Strength
+    m_Metadata:
+      m_Items: []
+  - m_Id: 661711511584768
+    m_Key: Regeneration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830139102461952
+    m_Key: MemoryBoost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830139169570816
+    m_Key: HandSizeUp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830139169570817
+    m_Key: HandSizeDown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830139169570818
+    m_Key: Stun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830139169570819
+    m_Key: HealReversal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187720639610880
+    m_Key: Loopback
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187720748662784
+    m_Key: Multithread
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187720748662785
+    m_Key: TokenBonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2194368305266688
+    m_Key: Worm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2854300474114048
+    m_Key: VirusImmunity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2854300507668480
+    m_Key: CorruptionImmunity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2854300507668481
+    m_Key: KillImmunity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2854300507668482
+    m_Key: BufferLock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2854300507668483
+    m_Key: Glitch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2854300507668484
+    m_Key: ExploitChain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4627007268159488
+    m_Key: LayerBoost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17078147872161792
+    m_Key: Overcharge
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2090394181379031137
+  references:
+    version: 2
+    RefIds:
+    - rid: 2090394181379031137
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1789972185488

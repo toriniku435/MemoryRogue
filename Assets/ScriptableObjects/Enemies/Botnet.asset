@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c36e8ca0464ab4a887e722aa1d2e3d, type: 3}
+  m_Name: Botnet
+  m_EditorClassIdentifier: Live2DCardRogue.Runtime::Live2DCardRogue.Common.ScriptableObjects.EnemyData
+  _id: Botnet
+  _maxHp: 80
+  _portrait: {fileID: 21300000, guid: eaab98c32e11df54ea49e61b7a2b5b3a, type: 3}
+  _visual: {fileID: 11400000, guid: 8f55e3bff530a974a8cee8bb603915af, type: 2}
+  _minActionCount: 1
+  _maxActionCount: 2
+  _cards:
+  - {fileID: 11400000, guid: a9a6664b82f99d8479343e142f8443cb, type: 2}
+  - {fileID: 11400000, guid: 795b316924c03064ca4c7b5338f4dcf4, type: 2}
+  - {fileID: 11400000, guid: 795b316924c03064ca4c7b5338f4dcf4, type: 2}
+  _cardPicker:
+    rid: 2090394181379031127
+  _initialStatusEffectDefinitions:
+  - rid: 2090394364956639320
+  references:
+    version: 2
+    RefIds:
+    - rid: 2090394181379031127
+      type: {class: RandomEnemyCardPicker, ns: Live2DCardRogue.Common.Models.EnemyCardPickers, asm: Live2DCardRogue.Runtime}
+      data: 
+    - rid: 2090394364956639320
+      type: {class: CorruptionImmunityDefinition, ns: Live2DCardRogue.Common.Statuses, asm: Live2DCardRogue.Runtime}
+      data: 

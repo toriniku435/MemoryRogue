@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a44639eb7172c043a44b7133a2bace2, type: 3}
+  m_Name: Stage02
+  m_EditorClassIdentifier: Live2DCardRogue.Runtime::Live2DCardRogue.Common.ScriptableObjects.StageData
+  _id: Stage02
+  _enemies:
+  - {fileID: 11400000, guid: 07ace4a04f7d5da4fbd783d3197d3b53, type: 2}
+  _victoryTokens: 100
+  _victoryCard: {fileID: 11400000, guid: fc7ed69e7d3e8d4488a79653bb266c76, type: 2}
+  _defeatTokens: 200
+  _clearConversation: {fileID: 11400000, guid: 046e178d334c50243995fd477c279078, type: 2}

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a0259275c882b0449f55c66801cb47a, type: 3}
+  m_Name: HackChip
+  m_EditorClassIdentifier: Live2DCardRogue.Runtime::Live2DCardRogue.Common.ScriptableObjects.CardPackData
+  _id: HackChip
+  _price: 180
+  _cardCount: 5
+  _cards:
+  - {fileID: 11400000, guid: d9f7e5f884aaa5847892187ab72cbc43, type: 2}
+  - {fileID: 11400000, guid: fc7ed69e7d3e8d4488a79653bb266c76, type: 2}
+  - {fileID: 11400000, guid: 4e61d4e83abde004695385e87bc6907c, type: 2}
+  - {fileID: 11400000, guid: 48934e32d30de5840b10d20aabfaef95, type: 2}
+  - {fileID: 11400000, guid: c1f1fd7d7f2a29d45b4f7165bf494881, type: 2}
+  - {fileID: 11400000, guid: b340a7b23ec757b4f90a8dcaed0c3478, type: 2}
+  - {fileID: 11400000, guid: ac6a3bccef40d304889163492af2d101, type: 2}
+  - {fileID: 11400000, guid: aae243df2705e3d44ae19851da9f4854, type: 2}
+  - {fileID: 11400000, guid: 02ae270da87fa004eb17342db0662700, type: 2}
+  - {fileID: 11400000, guid: f45387d537d476a459c2c26a4a600187, type: 2}
+  - {fileID: 11400000, guid: 303a504dccd637c44be53eec870d5a6d, type: 2}
+  - {fileID: 11400000, guid: adeef1a054258e343a563aa1f44ed82b, type: 2}
+  - {fileID: 11400000, guid: f2a720b5863bb264e92efc67b377ae9c, type: 2}
+  - {fileID: 11400000, guid: 893ed882207100e4d9672ffee7b20f18, type: 2}
+  - {fileID: 11400000, guid: 599ec0d50766fb94faaa02d1a0a3def0, type: 2}
+  - {fileID: 11400000, guid: efb0a5a096277394988fb3ba28f2aff3, type: 2}
+  - {fileID: 11400000, guid: 3caefff58d9a98d46ac2a083fb1294fb, type: 2}
+  _rarityWeights:
+  - _rarity: 0
+    _weight: 50
+  - _rarity: 1
+    _weight: 35
+  - _rarity: 2
+    _weight: 15
+  _illustration: {fileID: 21300000, guid: 226a9bcc7a52c764c8e287a9f081ad6d, type: 3}

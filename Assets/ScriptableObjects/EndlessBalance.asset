@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93e16aafa67483d478f75200ef5bc76f, type: 3}
+  m_Name: EndlessBalance
+  m_EditorClassIdentifier: Live2DCardRogue.Runtime::Live2DCardRogue.Common.ScriptableObjects.EndlessBalance
+  _enemies:
+  - _enemy: {fileID: 11400000, guid: 7803bac84b381c04488f8b58434fd9b4, type: 2}
+    _fromLayer: 1
+    _canAppearAlone: 1
+  - _enemy: {fileID: 11400000, guid: 07ace4a04f7d5da4fbd783d3197d3b53, type: 2}
+    _fromLayer: 1
+    _canAppearAlone: 1
+  - _enemy: {fileID: 11400000, guid: 69475adef9597d74ba3de3fd269d7db1, type: 2}
+    _fromLayer: 3
+    _canAppearAlone: 1
+  - _enemy: {fileID: 11400000, guid: 73710c40abb3b0a4fb0436fbc5d9a962, type: 2}
+    _fromLayer: 10
+    _canAppearAlone: 0
+  _twoEnemiesFromLayer: 10
+  _twoEnemiesChancePercent: 60
+  _layersPerTier: 10
+  _hpPercentPerTier: 25
+  _attackBonusPerTier: 2
+  _victoryTokensBase: 100
+  _victoryTokensPerLayer: 10
+  _rewardChipsByTier:
+  - {fileID: 11400000, guid: a83022fa29f1dc14cb42322d1f8519ac, type: 2}
+  - {fileID: 11400000, guid: 809137691ab4fcf43b5ed4509a4ea1d6, type: 2}

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: CardPackName_ja
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 466abd7ca477bd941b0958e26e57b558, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 785874944
+    m_Localized: "\u30B9\u30BF\u30FC\u30BF\u30FC\u30C1\u30C3\u30D7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 827817984
+    m_Localized: "\u30D7\u30EC\u30DF\u30A2\u30E0\u30C1\u30C3\u30D7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1425974857531392
+    m_Localized: "\u30D5\u30A1\u30FC\u30B9\u30C8\u30D3\u30EB\u30C9\u30C1\u30C3\u30D7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2178638591524864
+    m_Localized: "\u30A2\u30BF\u30C3\u30AF\u30C1\u30C3\u30D7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2178638717353984
+    m_Localized: "\u30EA\u30DA\u30A2\u30C1\u30C3\u30D7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2178638717353985
+    m_Localized: "\u30CF\u30C3\u30AF\u30C1\u30C3\u30D7"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - UI_Back
+  - UI_Default
+  - UI_Popup
+  - UI_PopupTop
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI_Back
+    uniqueID: 1965696614
+    locked: 0
+  - name: UI_Back_Effect
+    uniqueID: 19910654
+    locked: 0
+  - name: UI_Default
+    uniqueID: 2019209170
+    locked: 0
+  - name: UI_Default_Effect
+    uniqueID: 1135339354
+    locked: 0
+  - name: UI_Popup
+    uniqueID: 440751425
+    locked: 0
+  - name: UI_Popup_Effect
+    uniqueID: 2138744553
+    locked: 0
+  m_RenderingLayers:
+  - Default

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6467e3f06c032a43a421bf771576ff5, type: 3}
+  m_Name: CampaignBalance
+  m_EditorClassIdentifier: Live2DCardRogue.Runtime::Live2DCardRogue.Common.ScriptableObjects.CampaignBalance
+  _episodes:
+  - {fileID: 11400000, guid: b20dc94a3af982a4d95c8d31fab3c33a, type: 2}
+  - {fileID: 11400000, guid: c604fd153b77dc344b8fd259ebfbf8d2, type: 2}
+  - {fileID: 11400000, guid: 6a080bc5a40264244803e978d46f3617, type: 2}
+  _startTokens: 500
+  _startMaxHp: 100
+  _startMaxMemory: 10
+  _startOwnedCards: []
+  _firstBuildChip: {fileID: 11400000, guid: 487bc5c7fd583664cb0f3bae05a5ce27, type: 2}
+  _firstBuildChipCount: 10
+  _firstBuildGuaranteed:
+  - {fileID: 11400000, guid: 1177637397447294cb5b357249549ed6, type: 2}
+  - {fileID: 11400000, guid: 1177637397447294cb5b357249549ed6, type: 2}
+  - {fileID: 11400000, guid: 1177637397447294cb5b357249549ed6, type: 2}
+  - {fileID: 11400000, guid: 1177637397447294cb5b357249549ed6, type: 2}
+  - {fileID: 11400000, guid: 1177637397447294cb5b357249549ed6, type: 2}
+  - {fileID: 11400000, guid: e47b8f573aaf49248a9bf547fb13c648, type: 2}
+  - {fileID: 11400000, guid: e47b8f573aaf49248a9bf547fb13c648, type: 2}
+  - {fileID: 11400000, guid: e47b8f573aaf49248a9bf547fb13c648, type: 2}
+  - {fileID: 11400000, guid: e47b8f573aaf49248a9bf547fb13c648, type: 2}
+  _autoDeckAttackCount: 10
+  _autoDeckDefenseCount: 6
+  _autoDeckSupportCount: 4
+  _pointsPerToken: 1
+  _penaltyPerBackupBoost: 1000
+  _rankMinScores: 00000000960000005e0100005802000084030000b0040000400600009e070000
+  _bestRouteFrom: 5
+  _normalRouteFrom: 3
+  _hpStep: 20
+  _hpLimit: 300
+  _hpBaseCost: 40
+  _hpCostPerLevel: 10
+  _memoryStep: 1
+  _memoryLimit: 15
+  _memoryBaseCost: 60
+  _memoryCostPerLevel: 40
+  _chipPriceMultiplier: 1
+  _singleNormalPrice: 40
+  _singleRarePrice: 90
+  _singleEpicPrice: 180
+  _singleLimitPerCommand: 3

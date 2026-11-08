@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StatusEffectDescription_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 2caad558a3b604e42a9daf803955e41f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 353861632
+    m_Localized: Absorbs incoming attack damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 395804672
+    m_Localized: Deals damage at the end of its owner's turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 395804673
+    m_Localized: Reduces virus damage taken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399998976
+    m_Localized: Increases attack damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 661710421065728
+    m_Localized: Heals HP at the end of its owner's turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830137990971392
+    m_Localized: Increases maximum memory for the remaining turns
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830138032914432
+    m_Localized: Loads more commands into the buffer for the remaining turns
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830138032914433
+    m_Localized: Loads fewer commands into the buffer for the remaining turns
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830138032914434
+    m_Localized: Cannot act for the remaining turns
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830138032914435
+    m_Localized: Healing becomes damage for the remaining turns
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187719536508928
+    m_Localized: The next command you execute returns to your buffer next turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187719612006400
+    m_Localized: The next command runs several times, then is purged
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187719612006401
+    m_Localized: Winning grants extra tokens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2194367210553344
+    m_Localized: Deals its value plus half its owner's Block as damage at the end
+      of its owner's turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2854299375206400
+    m_Localized: Cannot be infected by viruses or worms
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2854299404566528
+    m_Localized: Cannot be corrupted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2854299404566529
+    m_Localized: Cannot be killed outright
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2854299404566530
+    m_Localized: Loads no commands into the buffer for the remaining turns
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2854299404566531
+    m_Localized: May cause a System Error before each action for the remaining turns
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2854299404566532
+    m_Localized: Chain progress. Breaks at the end of the turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4627006169251840
+    m_Localized: Deep-layer boost. Increases attack damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17078147167518720
+    m_Localized: Healing past max HP. +1 attack damage for every 5. Damage is taken
+      from it before HP
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

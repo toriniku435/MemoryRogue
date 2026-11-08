@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Localization-Assets-Shared
+  m_GUID: 958a8365a8cb52b498cdb265c53cb27d
+  m_SerializeEntries:
+  - m_GUID: 2caad558a3b604e42a9daf803955e41f
+    m_Address: Assets/Localization/Tables/StatusEffectDescription/StatusEffectDescription
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 385d3b623a1b2e94b9da8532074d8b11
+    m_Address: Assets/Localization/Tables/EnemyDescription/EnemyDescription Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 466abd7ca477bd941b0958e26e57b558
+    m_Address: Assets/Localization/Tables/CardPackName/CardPackName Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54a1fe9ed2993e443a8729cea213c047
+    m_Address: Assets/CardName Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ecd2764eac6cbf499401f6f4bb75e78
+    m_Address: Assets/Localization/Tables/CardPackDescription/CardPackDescription
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7673b1263cd3fd34ba38962931034b66
+    m_Address: Assets/Localization/Tables/TutorialText/TutorialText Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9db8e01644d7a9747b10bf02ace581ad
+    m_Address: Assets/Localization/Tables/CardDescription/CardDescription Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3c1af613c5cba140b1ad2c615951158
+    m_Address: Assets/Localization/Tables/StatusEffectName/StatusEffectName Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: daf0e765de60d524085a391d4ff7a26e
+    m_Address: Assets/Localization/Tables/StatusEffectLogDetail/StatusEffectLogDetail
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfba1c3131a1f2948bc3bd3236e96f6a
+    m_Address: Assets/Localization/Tables/EnemyName/EnemyName Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f39d1103f062b17469aadddce20ad248
+    m_Address: Assets/Localization/Tables/UIText/UIText Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: e89cedd67fc0a8b47bfbfb4785e4b573, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0d8fae47e5b57704fb5ecccddd43b5f9, type: 2}
+    - {fileID: 11400000, guid: 44cee97bb5d908844aae75aa56a55532, type: 2}
+    - {fileID: 11400000, guid: c66a95d56c04c614589b7bbc23123c8c, type: 2}
